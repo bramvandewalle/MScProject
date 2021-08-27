@@ -1,2 +1,7 @@
-# MScProject
-Federated Learning in Network Intrusion Detection
+# Federated Learning in Network Intrusion Detection
+
+**Master's dissertation submitted in order to obtain the academic degree of Master of Science in Information Engineering Technology**
+*Supervisors: Laurens D'hooge, Prof. dr. Bruno Volckaert, Dr. ir. Tim Wauters*
+
+## Abstract
+This thesis has conducted research to the use of federated learning in network intrusion detection. Network intrusion detection systems monitor the network traffic and try to detect attacks if they occur. Such intrusion detection systems (IDSs) can use machine learning models that classify network traffic flows captured by the IDSs as benign or malicious. Such machine learning models require datasets to be trained with. Organizational networks that consist of two (or more) geographically separated networks, in which each network has its own IDS that uses machine learning models, must have local training datasets for each of the IDSs. If, over time, one of the IDSs learns to recognize a new attack type, it would be useful that the other IDSs could learn from this IDS. A simple solution is to share the new training dataset with all IDSs. However, this may not always be feasible due to privacy/security policies, because sending the training sets requires too much network bandwidth, or because it is computationally too expensive to retrain all models in the IDSs. This master's thesis found that federated learning is a possible solution that allows for multiple IDSs to learn from each other during training. Seven different experiments give insights in why and how using federated learning in network intrusion detection systems can be useful. In these experiments, the CIDDS-001 datasets are used that provide captured network traffic flows of both benign and malicious flows. The framework that is used for performing the federated learning experiments is TensorFlow Federated.

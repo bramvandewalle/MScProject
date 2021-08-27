@@ -1,0 +1,4 @@
+data/*
+saved_dfs/*
+*__pycache__*
+*.ipynb_checkpoints*

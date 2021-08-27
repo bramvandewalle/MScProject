@@ -1,4 +1,4 @@
-# Federated Learning in Network Intrusion Detection
+# Federated Machine Learning in Network Intrusion Detection
 
 **Master's dissertation submitted in order to obtain the academic degree of Master of Science in Information Engineering Technology**
 *Supervisors: Laurens D'hooge, Prof. dr. Bruno Volckaert, Dr. ir. Tim Wauters*
